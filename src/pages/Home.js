@@ -1,7 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import mm_bulb from '../img/mm_bulb_00.png';
 import PageTemplate from '../components/PageTemplate';
-import { NavLink, useParams } from 'react-router-dom';
+// import { NavLink, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const Home = () => {
   const mainHeaderNode = useRef(null);
