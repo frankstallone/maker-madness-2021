@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import mm_bulb from '../img/mm_bulb_00.png';
-import achieve_logo from '../img/achieve_logo_02.png';
 import PageTemplate from '../components/PageTemplate';
 import { NavLink, useParams } from 'react-router-dom';
 
@@ -44,7 +43,7 @@ const Home = () => {
       <PageTemplate>
         <h3 className="text-lg">Saturday, April 24th, 10-2pm.</h3>
         <h4>Activities</h4>
-        <ul>
+        {/* <ul>
           <li>
             <NavLink to={`/takemake`}>
               <strong>Take&amp;Make</strong>
@@ -70,8 +69,7 @@ const Home = () => {
             <strong>Code.org</strong> - Or try other code challenges for all age
             levels
           </li>
-        </ul>
-        <img src={achieve_logo} alt="logo" />
+        </ul> */}
       </PageTemplate>
     </>
   );

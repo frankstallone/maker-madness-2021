@@ -16,14 +16,14 @@ import TakeMake08 from './pages/TakeMake/TakeMake08';
 import TakeMake09 from './pages/TakeMake/TakeMake09';
 import TakeMake10 from './pages/TakeMake/TakeMake10';
 
-import Header from './components/Header';
+// import Header from './components/Header';
 import Footer from './components/Footer';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Header />
+        {/* <Header /> */}
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/code" component={Code} exact />
