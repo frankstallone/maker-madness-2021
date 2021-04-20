@@ -14,6 +14,7 @@ Conductive Copper tape
 Test your LEDs and the battery. Each LED has two prongs.  One is slightly longer than the other.  The longer prong is positive. The short prong is negative. 
 
 
+
  Place the battery between the two prongs with the positive prong touching the positive side of the battery and the negative prong touching the negative side.
 
 
