@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import img01 from '../../img/tnm01/page1image835930848.png';
 import img02 from '../../img/tnm01/page2image836052752.png';
@@ -18,7 +18,7 @@ import img15 from '../../img/tnm01/page18image836457184.png';
 import img16 from '../../img/tnm01/page19image865041968.png';
 import img17 from '../../img/tnm01/page20image836538720.png';
 import img18 from '../../img/tnm01/page21image836543952.png';
-import img19 from '../../img/tnm01/page22image989996512.png';
+// import img19 from '../../img/tnm01/page22image989996512.png';
 
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
@@ -77,12 +77,11 @@ const TakeMake01 = () => {
         <h3>Add ears and hair</h3>
         <img className="mx-auto" src={img16} alt="Step: X" />
         <p>
-          Fold two different colored strips of paper over 
-          one another to make a springy nose. 
-          Use your imagination and have some fun.</p>
+          Fold two different colored strips of paper over one another to make a
+          springy nose. Use your imagination and have some fun.
+        </p>
         <img className="mx-auto" src={img17} alt="Step: X" />
         <img className="mx-auto" src={img18} alt="Step: X" />
-
       </PageTemplate>
     </>
   );
