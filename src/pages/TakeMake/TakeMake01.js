@@ -18,7 +18,6 @@ import img15 from '../../img/tnm01/page18image836457184.png';
 import img16 from '../../img/tnm01/page19image865041968.png';
 import img17 from '../../img/tnm01/page20image836538720.png';
 import img18 from '../../img/tnm01/page21image836543952.png';
-// import img19 from '../../img/tnm01/page22image989996512.png';
 
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
