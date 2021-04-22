@@ -11,12 +11,12 @@ import img09 from '../../img/tnm04/tnm04-09.png';
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
 
-const TakeMake09 = () => {
+const TakeMake11 = () => {
   return (
     <>
       <PageHero
-        supHeader="Take&amp;Make #9"
-        mainHeader="Graham Cracker House"
+        supHeader="Take&amp;Make #11"
+        mainHeader="Ping Pong Ball Catapult Engineering"
       />
       <PageTemplate>
         <h3>(Content coming soon)</h3>
@@ -25,4 +25,4 @@ const TakeMake09 = () => {
   );
 };
 
-export default TakeMake09;
+export default TakeMake11;

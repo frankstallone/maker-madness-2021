@@ -9,39 +9,44 @@ const TakeNMake = () => {
       <PageHero
         supHeader="Maker Madness"
         mainHeader="Take&amp;Make Activities"
-        subHeader="A bag of stuff with QR codes pointing to the specific activity!"
+        subHeader="Pick up bags of materials to make projects @home!"
       />
       <PageTemplate>
+        <p>Grab your free Take&Make bags at participating locations and head home
+        to mess up your kitchen table instead of ours ;>)</p>
         <ul>
           <li>
-            <NavLink to={`/takemake/takemake01`}>TakeNMake 01</NavLink>
+            <NavLink to={`/takemake01`}>Take&amp;Make #1 - Puppet Making</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake02`}>TakeNMake 02</NavLink>
+            <NavLink to={`/takemake02`}>Take&amp;NMake #2 - Lightbulb Paper Circuit</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake03`}>TakeNMake 03</NavLink>
+            <NavLink to={`/takemake03`}>Take&amp;NMake #3 - Origami Cicadas</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake04`}>TakeNMake 04</NavLink>
+            <NavLink to={`/takemake04`}>Take&amp;NMake #4 - Kinetic Popsicle Sticks</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake05`}>TakeNMake 05</NavLink>
+            <NavLink to={`/takemake05`}>Take&amp;NMake #5 - Craftstick & Watercolor Sculpture</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake06`}>TakeNMake 06</NavLink>
+            <NavLink to={`/takemake06`}>Take&amp;NMake #6 - Mask Rack / Bracelet Rack</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake07`}>TakeNMake 07</NavLink>
+            <NavLink to={`/takemake07`}>Take&amp;NMake #7 - Bee Bath</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake08`}>TakeNMake 08</NavLink>
+            <NavLink to={`/takemake08`}>Take&amp;NMake #8 - Paper Quilling</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake09`}>TakeNMake 09</NavLink>
+            <NavLink to={`/takemake09`}>Take&amp;NMake #9 - Graham Cracker House</NavLink>
           </li>
           <li>
-            <NavLink to={`/takemake/takemake10`}>TakeNMake 10</NavLink>
+            <NavLink to={`/takemake10`}>Take&amp;NMake #10 - Play-Doh Dinosaur Zoo</NavLink>
+          </li>
+          <li>
+            <NavLink to={`/takemake11`}>Take&amp;NMake #11 - Ping Pong Ball Catapult Engineering</NavLink>
           </li>
         </ul>
       </PageTemplate>

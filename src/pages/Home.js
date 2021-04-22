@@ -48,7 +48,7 @@ const Home = () => {
             <NavLink to={`/takemake`}>
               <strong>Take&amp;Make</strong>
             </NavLink>
-            - Pick up project bags around South Orange &amp; Maplewood.
+            &nbsp;- Pick up project bags around South Orange &amp; Maplewood.
           </li>
           <li>
             <strong>OYO (OnYourOwn)</strong> - Do projects just with materials
@@ -58,17 +58,20 @@ const Home = () => {
             <strong>Meet the Bees</strong> - Come buzz with a real bee colony
           </li>
           <li>
-            <strong>Live Demos</strong> - Come see on utside woodworking
-            demonstration
+            <strong>Live Demos</strong> - Come see on outside woodworking
+            demonstration by the creator of Maplewoodshop
           </li>
           <li>
             <strong>CodeJoy</strong> - Learn to code online with friendly,
             connected cardboard robots
           </li>
+
+          {/* Not ready with Code.org content. 
           <li>
             <strong>Code.org</strong> - Or try other code challenges for all age
             levels
           </li>
+          */}
         </ul>
       </PageTemplate>
     </>

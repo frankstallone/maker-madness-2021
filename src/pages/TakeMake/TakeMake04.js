@@ -16,7 +16,7 @@ const TakeMake04 = () => {
     <>
       <PageHero
         supHeader="Take&amp;Make #4"
-        mainHeader="Kinetic Sticks – Cobra Weave"
+        mainHeader="Kinetic Popsicle Sticks"
       />
       <PageTemplate>
         <h2>Purpose</h2>
