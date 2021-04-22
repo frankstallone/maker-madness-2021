@@ -25,7 +25,7 @@ const Header = () => {
     },
     {
       name: 'OYO',
-      href: '#',
+      href: '/oyo',
       description: 'OnYourOwn with  written instructions!',
       icon: BookOpenIcon,
     },
@@ -130,12 +130,12 @@ const Header = () => {
                 <span className="ml-3">Code</span>
               </NavLink>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <NavLink
+                {/* <NavLink
                   to=""
                   className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   Sign in
-                </NavLink>
+                </NavLink> */}
                 <NavLink
                   to="/give"
                   className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
