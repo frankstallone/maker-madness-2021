@@ -28,7 +28,12 @@ const TakeMake05 = () => {
         <img className="mx-auto" src={img04} alt="Step" />
         <p><strong>Step 4</strong> - Paint with the watercolor palette by dipping the brush into the water and then the paint. Once you have painted the whole structure, wait to dry and then tie up with the string.</p>
         <img className="mx-auto" src={img05} alt="Step" />
-        <h3>(Content coming soon)</h3>
+        <center>
+        <a href="https://www.ohcanary.com/" style={{color: '#FBD214'}}>
+        <p>www.ohcanary.com @ohcanaryart&nbsp;165 Valley Street&nbsp;South Orange</p>
+        </a>
+        </center>
+
       </PageTemplate>
     </>
   );
