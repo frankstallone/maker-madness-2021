@@ -11,6 +11,68 @@ const Home = () => {
     mainHeaderNode.current.focus();
   }, [page]);
 
+  const links = [
+    {
+      name: 'Take&Make',
+      to: '/takemake',
+      description: 'Pick up project bags around South Orange & Maplewood',
+      buttons: [
+        {
+          buttonText: 'Get Directions',
+          link:
+            'https://www.google.com/maps/d/u/0/embed?mid=1LxiTbqjOyQAXWyO-VENAZ_rDdFup71om&hl=en&ll=40.735985987960035%2C-74.26857065&z=15',
+        },
+      ],
+    },
+    {
+      name: 'OYO (OnYourOwn)',
+      to: '/oyo',
+      description: 'Do projects just with materials you can prob find @home',
+    },
+    {
+      name: 'Meet the Bees',
+      to: '#',
+      description: 'Come buzz with a real bee colony (Coming soon)',
+    },
+    {
+      name: 'Geo-Caching',
+      exact: true,
+      to: 'https://sites.google.com/view/makermadness2021-geo-caching',
+      description:
+        "Grab your bike, scooter, or Dad's car ;>) and get to know South Orange and Maplewood in a whole new way.",
+      buttons: [
+        {
+          buttonText: 'Start Here',
+          link: 'https://sites.google.com/view/makermadness2021-geo-caching',
+        },
+      ],
+    },
+    {
+      name: 'Live Demos',
+      to: '#',
+      description:
+        'Come see on outside woodworking demonstration by the creator of Maplewoodshop (Coming soon)',
+    },
+    {
+      name: 'CodeJoy',
+      to: '#',
+      description:
+        "Learn to code online with friendly, connected cardboard robots. If you're free on Saturday (4/24) Sign up below.",
+      buttons: [
+        {
+          buttonText: '10AM Class',
+          link:
+            'https://docs.google.com/forms/d/e/1FAIpQLSeJoHHj0kQYEhG3Gz70BWdthS8nvUeyiUJZ3cXl_3BEqD5HBg/viewform?fbclid=IwAR3vFSuIvmlcHNhgpv6Zba7FsyGScIZ2_ejyLFbI2NEe8-BX0lf1GctxamQ%3E',
+        },
+        {
+          buttonText: '3PM Class',
+          link:
+            'https://docs.google.com/forms/d/e/1FAIpQLSfYxxnColakWmEkXXb8BaXHH6DLsptpOgZakfjwC3oDlBlE2w/viewform?gxids=7628&fbclid=IwAR300_ERhgTl8W3Yi7hNCCiQZxIw3uo-UVQg18nZBTSfTfmmhWtmrpGkw88%3E',
+        },
+      ],
+    },
+  ];
+
   return (
     <>
       <div className="relative bg-white py-16 overflow-hidden">
@@ -41,60 +103,42 @@ const Home = () => {
         </div>
       </div>
       <PageTemplate>
-        <h3 className="text-lg">Saturday, April 24th, 10-2pm.</h3>
-        <h4>Activities</h4>
-        <ul>
-          <li>
-            <NavLink to={`/takemake`}>
-              <strong>Take&amp;Make</strong>
-            </NavLink>
-            &nbsp;- Pick up project bags around South Orange &amp; Maplewood.&nbsp;  
-            <a href="https://www.google.com/maps/d/u/0/embed?mid=1LxiTbqjOyQAXWyO-VENAZ_rDdFup71om&hl=en&ll=40.735985987960035%2C-74.26857065&z=15">
-              <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-                Map Here
-              </button>
-            </a>
-          </li>
-          <li>
-            <NavLink to={`/oyo`}>
-              <strong>OYO (OnYourOwn)</strong>
-            </NavLink>
-            &nbsp;- Do projects just with materials
-            you can prob find @home
-          </li>
-          <li>
-            <strong>Meet the Bees</strong> - Come buzz with a real bee colony
-          </li>
-
-          <li>
-            <strong>Geo-Caching</strong> - Grab your bike, scooter, or Dad's car ;>) and get to know South Orange and Maplewood in a whole new way.&nbsp;
-
-            <a href="https://sites.google.com/view/makermadness2021-geo-caching">
-              <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-                Start Here
-              </button>
-            </a>
-          </li>
-          <li>
-            <strong>Live Demos</strong> - Come see on outside woodworking
-            demonstration by the creator of Maplewoodshop
-          </li>
-          <li>
-            <strong>CodeJoy</strong> - Learn to code online with friendly,
-            connected cardboard robots. If you're free on Saturday (4/24), Sign up for...
-            <div>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJoHHj0kQYEhG3Gz70BWdthS8nvUeyiUJZ3cXl_3BEqD5HBg/viewform?fbclid=IwAR3vFSuIvmlcHNhgpv6Zba7FsyGScIZ2_ejyLFbI2NEe8-BX0lf1GctxamQ%3E">
-                <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-                  10AM class here
-                </button>
-              </a><br />
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYxxnColakWmEkXXb8BaXHH6DLsptpOgZakfjwC3oDlBlE2w/viewform?gxids=7628&fbclid=IwAR300_ERhgTl8W3Yi7hNCCiQZxIw3uo-UVQg18nZBTSfTfmmhWtmrpGkw88%3E">
-                <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-                  3PM class here&nbsp;&nbsp;
-                </button>
-              </a>
-            </div>
-          </li>
+        <h2 className="text-lg">Saturday, April 24th, 10-2pm.</h2>
+        <h3>Activities</h3>
+        <ul className="page-lists divide-y divide-gray-200">
+          {links.map((link) => (
+            <li key={link.name} className="py-4 flex">
+              <div className="m-0">
+                <p className="m-0">
+                  <p className="font-medium text-gray-900">
+                    {link.exact ? (
+                      <a href={link.to}>{link.name}</a>
+                    ) : (
+                      <NavLink exact={link.exact} to={link.to}>
+                        {link.name}
+                      </NavLink>
+                    )}
+                  </p>
+                  <p className="text-gray-500 space-y-2">
+                    {link.description}
+                    {link.buttons
+                      ? link.buttons.map((button) => {
+                          return (
+                            <a
+                              key={button.link}
+                              className="btn"
+                              href={button.link}
+                            >
+                              {button.buttonText}
+                            </a>
+                          );
+                        })
+                      : null}
+                  </p>
+                </p>
+              </div>
+            </li>
+          ))}
         </ul>
       </PageTemplate>
     </>
