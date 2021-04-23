@@ -81,7 +81,19 @@ const Home = () => {
           </li>
           <li>
             <strong>CodeJoy</strong> - Learn to code online with friendly,
-            connected cardboard robots
+            connected cardboard robots. If you're free on Saturday (4/24), Sign up for...
+            <div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJoHHj0kQYEhG3Gz70BWdthS8nvUeyiUJZ3cXl_3BEqD5HBg/viewform?fbclid=IwAR3vFSuIvmlcHNhgpv6Zba7FsyGScIZ2_ejyLFbI2NEe8-BX0lf1GctxamQ%3E">
+                <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                  10AM class here
+                </button>
+              </a><br />
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYxxnColakWmEkXXb8BaXHH6DLsptpOgZakfjwC3oDlBlE2w/viewform?gxids=7628&fbclid=IwAR300_ERhgTl8W3Yi7hNCCiQZxIw3uo-UVQg18nZBTSfTfmmhWtmrpGkw88%3E">
+                <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                  3PM class here&nbsp;&nbsp;
+                </button>
+              </a>
+            </div>
           </li>
         </ul>
       </PageTemplate>
