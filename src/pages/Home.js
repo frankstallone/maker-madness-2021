@@ -53,15 +53,27 @@ const Home = () => {
               <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
                 Map Here
               </button>
-
             </a>
           </li>
           <li>
-            <strong>OYO (OnYourOwn)</strong> - Do projects just with materials
+            <NavLink to={`/oyo`}>
+              <strong>OYO (OnYourOwn)</strong>
+            </NavLink>
+            &nbsp;- Do projects just with materials
             you can prob find @home
           </li>
           <li>
             <strong>Meet the Bees</strong> - Come buzz with a real bee colony
+          </li>
+
+          <li>
+            <strong>Geo-Caching</strong> - Grab your bike, scooter, or Dad's car ;>) and get to know South Orange and Maplewood in a whole new way.&nbsp;
+
+            <a href="https://sites.google.com/view/makermadness2021-geo-caching">
+              <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                Start Here
+              </button>
+            </a>
           </li>
           <li>
             <strong>Live Demos</strong> - Come see on outside woodworking
