@@ -12,7 +12,9 @@ const TakeMake07 = () => {
     <>
       <PageHero supHeader="Take&amp;Make #7" mainHeader="Bee Bath" />
       <PageTemplate>
-        <img className="mx-auto" src={img01} alt="Step" />
+        <a href="https://southmountainbees.com/">
+          <img className="mx-auto" src={img01} alt="Step" />
+        </a>
         <center><h3>Help The Bees</h3></center>
         <img className="mx-auto" src={img02} alt="Step" />
         <h3>How to create a bee bath</h3>
