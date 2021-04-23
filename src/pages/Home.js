@@ -31,12 +31,11 @@ const Home = () => {
     },
     {
       name: 'Meet the Bees',
-      to: '#',
       description: 'Come buzz with a real bee colony (Coming soon)',
     },
     {
       name: 'Geo-Caching',
-      exact: true,
+      external: true,
       to: 'https://sites.google.com/view/makermadness2021-geo-caching',
       description:
         "Grab your bike, scooter, or Dad's car ;>) and get to know South Orange and Maplewood in a whole new way.",
@@ -49,13 +48,11 @@ const Home = () => {
     },
     {
       name: 'Live Demos',
-      to: '#',
       description:
         'Come see on outside woodworking demonstration by the creator of Maplewoodshop (Coming soon)',
     },
     {
       name: 'CodeJoy',
-      to: '#',
       description:
         "Learn to code online with friendly, connected cardboard robots. If you're free on Saturday (4/24) Sign up below.",
       buttons: [
@@ -109,17 +106,25 @@ const Home = () => {
           {links.map((link) => (
             <li key={link.name} className="py-4 flex">
               <div className="m-0 w-full">
-                <p className="font-medium text-gray-900">
-                  {link.exact ? (
-                    <a href={link.to}>{link.name}</a>
+                <p className="font-medium text-xl text-gray-900">
+                  {link.to ? (
+                    link.external ? (
+                      <a href={link.to}>{link.name}</a>
+                    ) : (
+                      <NavLink external={link.external} to={link.to}>
+                        {link.name}
+                      </NavLink>
+                    )
                   ) : (
-                    <NavLink exact={link.exact} to={link.to}>
-                      {link.name}
-                    </NavLink>
+                    link.name
                   )}
                 </p>
-                <p className="text-gray-500 space-y-2">
-                  {link.description}
+                <p className="text-gray-500">
+                  <span className={link.buttons ? 'block mb-4' : null}>
+                    {link.description}
+                  </span>
+                </p>
+                <p className="space-y-2">
                   {link.buttons
                     ? link.buttons.map((button) => {
                         return (
