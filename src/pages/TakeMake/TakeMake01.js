@@ -36,7 +36,7 @@ const TakeMake01 = () => {
         <img className="mx-auto" src={img02} alt="Step: X" />
         <h3>Folded Talking Head</h3>
         <img className="mx-auto" src={img03} alt="Step: X" />
-        <h2>Supplies</h2>
+        <h3>Supplies</h3>
         <div className="px-8 bg-yellow-50 border-2 border-yellow-200 rounded-lg">
           <ul>
             <li>2 sheets of legal sized paper</li>
