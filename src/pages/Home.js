@@ -11,6 +11,45 @@ const Home = () => {
     mainHeaderNode.current.focus();
   }, [page]);
 
+  const links = [
+    {
+      name: 'Take&Make',
+      to: '/takemake',
+      description: 'Pick up project bags around South Orange & Maplewood',
+      link:
+        'https://www.google.com/maps/d/u/0/embed?mid=1LxiTbqjOyQAXWyO-VENAZ_rDdFup71om&hl=en&ll=40.735985987960035%2C-74.26857065&z=15',
+      linkText: 'Get Directions',
+    },
+    {
+      name: 'OYO (OnYourOwn)',
+      to: '/oyo',
+      description: 'Do projects just with materials you can prob find @home',
+    },
+    {
+      name: 'Meet the Bees',
+      to: '#',
+      description: 'Come buzz with a real bee colony (Coming soon)',
+    },
+    {
+      name: 'Live Demos',
+      to: '#',
+      description:
+        'Come see on outside woodworking demonstration by the creator of Maplewoodshop (Coming soon)',
+    },
+    {
+      name: 'CodeJoy',
+      to: '#',
+      description:
+        'Learn to code online with friendly, connected cardboard robots (Coming soon)',
+    },
+    {
+      name: 'Code.org',
+      to: '#',
+      description:
+        'Or try other code challenges for all age levels (Coming soon)',
+    },
+  ];
+
   return (
     <>
       <div className="relative bg-white py-16 overflow-hidden">
@@ -41,43 +80,28 @@ const Home = () => {
         </div>
       </div>
       <PageTemplate>
-        <h3 className="text-lg">Saturday, April 24th, 10-2pm.</h3>
-        <h4>Activities</h4>
-        <ul>
-          <li>
-            <NavLink to={`/takemake`}>
-              <strong>Take&amp;Make</strong>
-            </NavLink>
-            &nbsp;- Pick up project bags around South Orange &amp; Maplewood.&nbsp;  
-            <a href="https://www.google.com/maps/d/u/0/embed?mid=1LxiTbqjOyQAXWyO-VENAZ_rDdFup71om&hl=en&ll=40.735985987960035%2C-74.26857065&z=15">
-              <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-                Map Here
-              </button>
-
-            </a>
-          </li>
-          <li>
-            <strong>OYO (OnYourOwn)</strong> - Do projects just with materials
-            you can prob find @home
-          </li>
-          <li>
-            <strong>Meet the Bees</strong> - Come buzz with a real bee colony
-          </li>
-          <li>
-            <strong>Live Demos</strong> - Come see on outside woodworking
-            demonstration by the creator of Maplewoodshop
-          </li>
-          <li>
-            <strong>CodeJoy</strong> - Learn to code online with friendly,
-            connected cardboard robots
-          </li>
-
-          {/* Not ready with Code.org content. 
-          <li>
-            <strong>Code.org</strong> - Or try other code challenges for all age
-            levels
-          </li>
-          */}
+        <h2 className="text-lg">Saturday, April 24th, 10-2pm.</h2>
+        <h3>Activities</h3>
+        <ul className="page-lists divide-y divide-gray-200">
+          {links.map((link) => (
+            <li key={link.name} className="py-4 flex">
+              <div className="m-0">
+                <p className="m-0">
+                  <p className="font-medium text-gray-900">
+                    <NavLink to={link.to}>{link.name}</NavLink>
+                  </p>
+                  <p className="text-gray-500">
+                    {link.description}
+                    {link.link ? (
+                      <a className="btn" href={link.link}>
+                        {link.linkText}
+                      </a>
+                    ) : null}
+                  </p>
+                </p>
+              </div>
+            </li>
+          ))}
         </ul>
       </PageTemplate>
     </>
