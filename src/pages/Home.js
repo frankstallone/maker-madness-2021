@@ -108,33 +108,31 @@ const Home = () => {
         <ul className="page-lists divide-y divide-gray-200">
           {links.map((link) => (
             <li key={link.name} className="py-4 flex">
-              <div className="m-0">
-                <p className="m-0">
-                  <p className="font-medium text-gray-900">
-                    {link.exact ? (
-                      <a href={link.to}>{link.name}</a>
-                    ) : (
-                      <NavLink exact={link.exact} to={link.to}>
-                        {link.name}
-                      </NavLink>
-                    )}
-                  </p>
-                  <p className="text-gray-500 space-y-2">
-                    {link.description}
-                    {link.buttons
-                      ? link.buttons.map((button) => {
-                          return (
-                            <a
-                              key={button.link}
-                              className="btn"
-                              href={button.link}
-                            >
-                              {button.buttonText}
-                            </a>
-                          );
-                        })
-                      : null}
-                  </p>
+              <div className="m-0 w-full">
+                <p className="font-medium text-gray-900">
+                  {link.exact ? (
+                    <a href={link.to}>{link.name}</a>
+                  ) : (
+                    <NavLink exact={link.exact} to={link.to}>
+                      {link.name}
+                    </NavLink>
+                  )}
+                </p>
+                <p className="text-gray-500 space-y-2">
+                  {link.description}
+                  {link.buttons
+                    ? link.buttons.map((button) => {
+                        return (
+                          <a
+                            key={button.link}
+                            className="btn"
+                            href={button.link}
+                          >
+                            {button.buttonText}
+                          </a>
+                        );
+                      })
+                    : null}
                 </p>
               </div>
             </li>

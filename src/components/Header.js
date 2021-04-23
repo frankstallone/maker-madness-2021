@@ -8,7 +8,7 @@ import {
   MenuIcon,
   ChevronDownIcon,
   XIcon,
-  CodeIcon,
+  // CodeIcon,
   BookOpenIcon,
 } from '@heroicons/react/outline';
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
@@ -204,7 +204,7 @@ const Header = () => {
                             </span>
                           </NavLink>
                         ))}
-                        <NavLink
+                        {/* <NavLink
                           to="/code"
                           className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                         >
@@ -213,7 +213,7 @@ const Header = () => {
                           <span className="ml-3 text-base font-medium text-gray-900">
                             Code
                           </span>
-                        </NavLink>
+                        </NavLink> */}
                       </nav>
                     </div>
                   </div>
