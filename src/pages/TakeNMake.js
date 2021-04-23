@@ -4,45 +4,86 @@ import PageHero from '../components/PageHero';
 import PageTemplate from '../components/PageTemplate';
 
 const TakeNMake = () => {
+  const pages = [
+    {
+      name: 'Take&Make #1',
+      to: '/takemake01',
+      description: 'Puppet Making',
+    },
+    {
+      name: 'Take&Make #2',
+      to: '/takemake02',
+      description: 'Lightbulb Paper Circuit',
+    },
+    {
+      name: 'Take&Make #3',
+      to: '/takemake03',
+      description: 'Origami Cicadas',
+    },
+    {
+      name: 'Take&Make #4',
+      to: '/takemake04',
+      description: 'Kinetic Popsicle Sticks',
+    },
+    {
+      name: 'Take&Make #5',
+      to: '/takemake05',
+      description: 'Craftstick & Watercolor Sculpture',
+    },
+    {
+      name: 'Take&Make #6',
+      to: '/takemake06',
+      description: 'Mask Rack / Bracelet Rack',
+    },
+    {
+      name: 'Take&Make #7',
+      to: '/takemake07',
+      description: 'Bee Bath',
+    },
+    {
+      name: 'Take&Make #8',
+      to: '/takemake08',
+      description: 'Paper Quilling',
+    },
+    {
+      name: 'Take&Make #9',
+      to: '/takemake09',
+      description: 'PaperGraham Cracker House',
+    },
+    {
+      name: 'Take&Make #10',
+      to: '/takemake10',
+      description: 'Play-Doh Dinosaur Zoo',
+    },
+    {
+      name: 'Take&Make #11',
+      to: '/takemake11',
+      description: 'Ping Pong Ball Catapult Engineering',
+    },
+  ];
   return (
     <>
       <PageHero
         supHeader="Maker Madness"
         mainHeader="Take&amp;Make Activities"
-        subHeader="A bag of stuff with QR codes pointing to the specific activity!"
+        subHeader="Pick up bags of materials to make projects @home!"
       />
       <PageTemplate>
-        <ul>
-          <li>
-            <NavLink to={`/takemake/takemake01`}>TakeNMake 01</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake02`}>TakeNMake 02</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake03`}>TakeNMake 03</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake04`}>TakeNMake 04</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake05`}>TakeNMake 05</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake06`}>TakeNMake 06</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake07`}>TakeNMake 07</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake08`}>TakeNMake 08</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake09`}>TakeNMake 09</NavLink>
-          </li>
-          <li>
-            <NavLink to={`/takemake/takemake10`}>TakeNMake 10</NavLink>
-          </li>
+        <p>
+          Grab your free Take&amp;Make bags at participating locations and head
+          home to mess up your kitchen table instead of ours. 😆
+        </p>
+        <ul className="page-lists divide-y divide-gray-200">
+          {pages.map((page) => (
+            <li key={page.name} className="py-4 flex">
+              <div className="m-0">
+                <p className="font-medium text-gray-900">
+                  <NavLink to={page.to}>{page.name}</NavLink>
+                </p>
+                <p className="text-gray-500">{page.description}</p>
+              </div>
+            </li>
+          ))}
         </ul>
       </PageTemplate>
     </>

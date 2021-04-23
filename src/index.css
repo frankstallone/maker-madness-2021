@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.prose .page-lists li,
+.prose-lg > ul > li > *:last-child {
+  @apply my-0;
+}
+.prose .page-lists li::before {
+  display: none;
+}
+.prose .page-lists li p {
+  @apply my-0;
+}

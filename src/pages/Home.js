@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import mm_bulb from '../img/mm_bulb_00.png';
 import PageTemplate from '../components/PageTemplate';
-// import { NavLink, useParams } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 
 const Home = () => {
   const mainHeaderNode = useRef(null);
@@ -44,12 +43,18 @@ const Home = () => {
       <PageTemplate>
         <h3 className="text-lg">Saturday, April 24th, 10-2pm.</h3>
         <h4>Activities</h4>
-        {/* <ul>
+        <ul>
           <li>
             <NavLink to={`/takemake`}>
               <strong>Take&amp;Make</strong>
             </NavLink>
-            - Pick up project bags around South Orange &amp; Maplewood.
+            &nbsp;- Pick up project bags around South Orange &amp; Maplewood.&nbsp;  
+            <a href="https://www.google.com/maps/d/u/0/embed?mid=1LxiTbqjOyQAXWyO-VENAZ_rDdFup71om&hl=en&ll=40.735985987960035%2C-74.26857065&z=15">
+              <button class="bg-pink-500 text-white active:bg-pink-600 font-bold text-base px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                Map Here
+              </button>
+
+            </a>
           </li>
           <li>
             <strong>OYO (OnYourOwn)</strong> - Do projects just with materials
@@ -59,18 +64,14 @@ const Home = () => {
             <strong>Meet the Bees</strong> - Come buzz with a real bee colony
           </li>
           <li>
-            <strong>Live Demos</strong> - Come see on utside woodworking
-            demonstration
+            <strong>Live Demos</strong> - Come see on outside woodworking
+            demonstration by the creator of Maplewoodshop
           </li>
           <li>
             <strong>CodeJoy</strong> - Learn to code online with friendly,
             connected cardboard robots
           </li>
-          <li>
-            <strong>Code.org</strong> - Or try other code challenges for all age
-            levels
-          </li>
-        </ul> */}
+        </ul>
       </PageTemplate>
     </>
   );
