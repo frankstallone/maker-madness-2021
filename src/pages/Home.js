@@ -48,7 +48,7 @@ const Home = () => {
             <NavLink to={`/takemake`}>
               <strong>Take&amp;Make</strong>
             </NavLink>
-            &nbsp;- Pick up project bags around South Orange &amp; Maplewood.
+            &nbsp;- Pick up project bags around South Orange &amp; Maplewood. For a map of locations, click <a href="https://www.google.com/maps/d/u/0/embed?mid=1LxiTbqjOyQAXWyO-VENAZ_rDdFup71om&hl=en&ll=40.735985987960035%2C-74.26857065&z=15"><strong>here</strong></a>
           </li>
           <li>
             <strong>OYO (OnYourOwn)</strong> - Do projects just with materials
