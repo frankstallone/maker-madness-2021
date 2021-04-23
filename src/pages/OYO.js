@@ -12,7 +12,6 @@ const OYO = () => {
       />
       <PageTemplate>
         <p>The following “On Your Own (OYO)” projects were were put together by the MAPSO MAKERS, a FIRST® LEGO® League robotics team made up of 8th grade girls from South Orange Middle School. All of these projects should be able to be completed with materials around the house, including what’s in your recycling bins!</p>
-        <h3>(Full content coming soon)</h3>
         <ul>
           <li>
             <NavLink to={`/oyo01`}>OYO #1 - Fidget Spinner</NavLink>
