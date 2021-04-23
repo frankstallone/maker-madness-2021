@@ -48,7 +48,7 @@ const TakeMake04 = () => {
         <img className="mx-auto" src={img01} alt="Step" />
 
         <h3>Step 2</h3>
-        <p>Place stick 3 over the end of stick 1, parallel to stick 3.</p>
+        <p>Place stick 3 over the end of stick 1, parallel to stick 2.</p>
         <img className="mx-auto" src={img02} alt="Step" />
 
         <h3>Step 3</h3>
