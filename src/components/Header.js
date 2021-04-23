@@ -122,6 +122,7 @@ const Header = () => {
                   )}
                 </Popover>
               </Popover.Group>
+              {/* Not ready for the code page yet. 
               <NavLink
                 to="/code"
                 className="hidden text-gray-500 group bg-white rounded-md md:inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -129,6 +130,8 @@ const Header = () => {
                 <CodeIcon className="flex-shrink-0 h-6 w-6 text-blue-600" />
                 <span className="ml-3">Code</span>
               </NavLink>
+              */}
+
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 {/* <NavLink
                   to=""

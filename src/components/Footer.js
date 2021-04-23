@@ -39,15 +39,6 @@ const Footer = () => {
 
           <div className="px-5 py-2">
             <NavLink
-              to="/code"
-              className="text-base text-gray-500 hover:text-gray-900"
-            >
-              Code
-            </NavLink>
-          </div>
-
-          <div className="px-5 py-2">
-            <NavLink
               to="/give"
               className="text-base text-gray-500 hover:text-gray-900"
             >
