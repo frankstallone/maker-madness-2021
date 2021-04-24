@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink, useParams } from 'react-router-dom';
 
 import img01 from '../../img/tnm08/img1.png';
 import img02 from '../../img/tnm08/img2.png';
