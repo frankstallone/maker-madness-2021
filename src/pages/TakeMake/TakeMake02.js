@@ -136,6 +136,9 @@ const TakeMake02 = () => {
             both positive prongs are on the same side.
           </li>
         </ol>
+        <h4>Please show us what you made!</h4>
+        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
+
       </PageTemplate>
     </>
   );

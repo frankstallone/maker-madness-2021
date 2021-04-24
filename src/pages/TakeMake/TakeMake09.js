@@ -50,6 +50,8 @@ const TakeMake09 = () => {
         <p>For additional fun, if you can find some gummy bears, you can have them live in the house you've just built.</p>
 
         <img className="mx-auto" src={img08} alt="Step 7" />
+        <h4>Please show us what you made!</h4>
+        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
 
       </PageTemplate>
     </>

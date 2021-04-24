@@ -81,6 +81,10 @@ const TakeMake01 = () => {
         </p>
         <img className="mx-auto" src={img17} alt="Step: X" />
         <img className="mx-auto" src={img18} alt="Step: X" />
+
+        <h4>Please show us what you made!</h4>
+        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
+
       </PageTemplate>
     </>
   );

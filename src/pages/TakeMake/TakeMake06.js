@@ -40,6 +40,8 @@ const TakeMake06 = () => {
           If your rack is slipping, you can use a small amount of glue to
           connect any of the pieces.
         </p>
+        <h4>Please show us what you made!</h4>
+        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
       </PageTemplate>
     </>
   );

@@ -58,6 +58,8 @@ const TakeMake11 = () => {
         <p><strong>Step 6</strong> - Put the ping pong ball on the gasket, pull back the stick and let it fly!</p>
         <img className="mx-auto" src={img10} alt="Step 10" />
         <img className="mx-auto" src={img11} alt="Step 11" />
+        <h4>Please show us what you made!</h4>
+        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
 
       </PageTemplate>
     </>
