@@ -90,11 +90,11 @@ const Home = () => {
             <h1
               ref={mainHeaderNode}
               tabIndex={-1}
-              className="mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl  focus:outline-none focus:ring-8 focus:ring-indigo-600 focus:ring-offset-8 focus:ring-offset-indigo-700"
+              className="font-serif mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl  focus:outline-none focus:ring-8 focus:ring-indigo-600 focus:ring-offset-8 focus:ring-offset-indigo-700"
             >
               Maker Madness 2021
             </h1>
-            <p className="max-w-xl mt-5 mx-auto text-xl text-gray-300">
+            <p className="max-w-xl mt-5 mx-auto text-xl text-yellow-500">
               We're taking the event from the CHS cafe to your kitchen table.
             </p>
           </div>

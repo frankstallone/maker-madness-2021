@@ -28,11 +28,11 @@ const PageHero = (props) => {
           <h1
             ref={mainHeaderNode}
             tabIndex={-1}
-            className="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl focus:outline-none focus:ring-8 focus:ring-indigo-600 focus:ring-offset-8 focus:ring-offset-indigo-700"
+            className="font-serif text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl focus:outline-none focus:ring-8 focus:ring-indigo-600 focus:ring-offset-8 focus:ring-offset-indigo-700"
           >
             {props.mainHeader}
           </h1>
-          <p className="mt-5 text-xl text-gray-400">{props.subHeader}</p>
+          <p className="mt-5 text-xl text-yellow-500">{props.subHeader}</p>
         </div>
       </div>
     </header>
