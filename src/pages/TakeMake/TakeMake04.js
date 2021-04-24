@@ -8,6 +8,9 @@ import img06 from '../../img/tnm04/tnm04-06.png';
 import img07 from '../../img/tnm04/tnm04-07.png';
 import img08 from '../../img/tnm04/tnm04-08.png';
 import img09 from '../../img/tnm04/tnm04-09.png';
+// import vid1 from '../../img/tnm04/popsicle-stick-bomb-vid.MOV';
+
+
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
 
@@ -28,7 +31,10 @@ const TakeMake04 = () => {
           is converted into kinetic energy, flinging the sticks upward and
           outward in a chain reaction.
         </p>
+        <p>Want to see what this looks like in slow motion?</p>
+        <embed src="https://www.youtube.com/embed/4LBw99NbPTw"></embed>
         <h3>Materials</h3>
+
         <p>
           Jumbo craft sticks or tongue depressors. The more the merrier. Using
           sticks with different colors adds an artistic and creative flair to
