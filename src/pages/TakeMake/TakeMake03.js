@@ -114,7 +114,6 @@ const TakeMake03 = () => {
         <p>Admire your finished cicada model!</p>
         <img className="mx-auto" src={img10} alt="Step" />
 
-        <h4>Please show us what you made!</h4>
         <ShowNTell />
 
         <p>

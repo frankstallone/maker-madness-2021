@@ -52,7 +52,7 @@ const TakeMake05 = () => {
             www.ohcanary.com @ohcanaryart 165 Valley Street South Orange
           </a>
         </p>
-        <h4>Please show us what you made!</h4>
+
         <ShowNTell />
       </PageTemplate>
     </>

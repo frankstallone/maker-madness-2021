@@ -125,7 +125,7 @@ const TakeMake10 = () => {
         <img className="mx-auto" src={img11} alt="Step 10" />
         <p>Enjoy your zoo, and be sure to feed those hungry dinosaurs.</p>
         <img className="mx-auto" src={img14} alt="Step 13" />
-        <h4>Please show us what you made!</h4>
+
         <ShowNTell />
       </PageTemplate>
     </>

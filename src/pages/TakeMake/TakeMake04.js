@@ -126,7 +126,7 @@ const TakeMake04 = () => {
             </a>
           </li>
         </ul>
-        <h4>Please show us what you made!</h4>
+
         <ShowNTell />
       </PageTemplate>
     </>

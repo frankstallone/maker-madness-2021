@@ -88,7 +88,7 @@ const TakeMake08 = () => {
         </p>
 
         <img className="mx-auto" src={img06} alt="Step" />
-        <h4>Please show us what you made!</h4>
+
         <ShowNTell />
       </PageTemplate>
     </>

@@ -41,7 +41,7 @@ const TakeMake06 = () => {
           If your rack is slipping, you can use a small amount of glue to
           connect any of the pieces.
         </p>
-        <h4>Please show us what you made!</h4>
+
         <ShowNTell />
       </PageTemplate>
     </>

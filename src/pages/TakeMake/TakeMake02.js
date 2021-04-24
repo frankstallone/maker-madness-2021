@@ -137,7 +137,7 @@ const TakeMake02 = () => {
             both positive prongs are on the same side.
           </li>
         </ol>
-        <h4>Please show us what you made!</h4>
+
         <ShowNTell />
       </PageTemplate>
     </>

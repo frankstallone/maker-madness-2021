@@ -73,7 +73,7 @@ const TakeMake07 = () => {
 
         <img className="mx-auto" src={img03} alt="Step" />
         <p>Simple, right? You now have a bee bath for the bees to enjoy.</p>
-        <h4>Please show us what you made!</h4>
+
         <ShowNTell />
       </PageTemplate>
     </>

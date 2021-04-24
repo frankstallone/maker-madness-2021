@@ -83,7 +83,6 @@ const TakeMake01 = () => {
         <img className="mx-auto" src={img17} alt="Step: X" />
         <img className="mx-auto" src={img18} alt="Step: X" />
 
-        <h4>Please show us what you made!</h4>
         <ShowNTell />
       </PageTemplate>
     </>
