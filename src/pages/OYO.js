@@ -21,17 +21,16 @@ const OYO = () => {
             <NavLink to={`/oyo01`}>OYO #1 - Fidget Spinner</NavLink>
           </li>
           <li>
-            <a href="https://coolscienceexperimentshq.com/bouncy-egg/">OYO #2 - The Bouncing Egg Experiment!</a>
+            <NavLink to={`/oyo02`}>OYO #2 - Bouncing Egg Experiment</NavLink>
           </li>
           <li>
-            <a href="https://www.scitech.org.au/experiment/invisible-fire-extinguisher/">OYO #3 - Invisible Fire Extinguisher</a>
+            <NavLink to={`/oyo03`}>OYO #3 - Invisible Fire Extinguisher</NavLink>
           </li>
           <li>
-            <a href="https://www.scientificamerican.com/article/build-a-wind-powered-car/">OYO #4 - Wind Powered Car</a>
+            <NavLink to={`/oyo04`}>OYO #4 - Wind Powered Car</NavLink>
           </li>
           <li>
-            <a href="https://www.learner.org/series/project-playbook-educator-edition/balloon-race/">OYO #5 - Balloon Races</a>
-            <NavLink to={`/takemake05`}>OYO #5 - Balloon Races</NavLink>
+            <NavLink to={`/oyo05`}>OYO #5 - Balloon Races</NavLink>
           </li>
         </ul>
 

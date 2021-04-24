@@ -19,7 +19,10 @@ import TakeMake09 from './pages/TakeMake/TakeMake09';
 import TakeMake10 from './pages/TakeMake/TakeMake10';
 import TakeMake11 from './pages/TakeMake/TakeMake11';
 import OYO01 from './pages/OYO/OYO01';
-
+import OYO02 from './pages/OYO/OYO02';
+import OYO03 from './pages/OYO/OYO03';
+import OYO04 from './pages/OYO/OYO04';
+import OYO05 from './pages/OYO/OYO05';
 
 // import Header from './components/Header';
 import Footer from './components/Footer';
@@ -47,6 +50,10 @@ class App extends Component {
           <Route path="/takemake10" component={TakeMake10} exact />
           <Route path="/takemake11" component={TakeMake11} exact />
           <Route path="/oyo01" component={OYO01} exact />
+          <Route path="/oyo02" component={OYO02} exact />
+          <Route path="/oyo03" component={OYO03} exact />
+          <Route path="/oyo04" component={OYO04} exact />
+          <Route path="/oyo05" component={OYO05} exact />
         </Switch>
         <Footer />
       </BrowserRouter>
