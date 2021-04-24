@@ -76,11 +76,11 @@ const TakeNMake = () => {
         <ul className="page-lists divide-y divide-gray-200">
           {pages.map((page) => (
             <li key={page.name} className="py-4 flex">
-              <div className="m-0">
-                <p className="font-medium text-gray-900">
+              <div className="m-0 w-full">
+                <p className="font-medium text-gray-900 text-center">
                   <NavLink to={page.to}>{page.name}</NavLink>
                 </p>
-                <p className="text-gray-500">{page.description}</p>
+                <p className="text-gray-500 text-center">{page.description}</p>
               </div>
             </li>
           ))}

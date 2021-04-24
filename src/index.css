@@ -18,3 +18,7 @@
 .prose .btn {
   @apply w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-purple-600 hover:bg-purple-700 no-underline;
 }
+
+.prose .btn--secondary {
+  @apply inline-flex items-center shadow-sm px-2.5 py-0.5 border border-purple-300 text-sm leading-5 font-medium rounded-full text-purple-700 bg-purple-50 hover:bg-purple-100 no-underline mr-2;
+}
