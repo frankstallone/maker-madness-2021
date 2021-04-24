@@ -26,7 +26,7 @@ const TakeMake11 = () => {
         <h3>Popsicle Stick Catapult</h3>
         <p>This activity allows you to build a catapult in two different ways (easy and more complicated). We supplied a ping pong ball, but if you have multiple different things you can launch, you can predict and test out which flies the farthest and determine why! You can change how tight you make the rubber bands on the lever and see if that makes a difference. You might even want to measure how far you can launch different objects using a ruler or measuring tape. So why is a catapult able to launch things so far? When you pull back the popsicle stick, potential energy, or "resting" energy gets stored up. And when you release the stick, the potential energy turns into kinetic energy, "moving" energy! Then gravity eventually pulls the launched object back to the ground. Make an easy catapult, take it apart and try the complicated one!</p>
 
-        <h4>Easy Catapult</h4>
+        <h3>Easy Catapult</h3>
         <p><strong>Step 1</strong> - Make a stack of 10 popsicle sticks and tie them together using two rubber bands, one at each end.</p>
         <img className="mx-auto" src={img01} alt="Step 1" />
 
@@ -38,7 +38,7 @@ const TakeMake11 = () => {
 
         <p><strong>Step 4</strong> - Put the ping pong ball on the gasket, pull back the stick and let it fly!</p>
 
-        <h4>More Complicated Catapult</h4>
+        <h3>More Complicated Catapult</h3>
         <p><strong>Step 1</strong> - Take two sticks, make a V with the bottoms slightly crossed over and tie together with 1 rubber band. Repeat this with two more sticks so you have two Vs.</p>
         <img className="mx-auto" src={img04} alt="Step 4" />
 
