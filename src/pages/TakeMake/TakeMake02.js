@@ -18,6 +18,7 @@ import img16 from '../../img/tnm02/tnm02-54.jpg';
 import img17 from '../../img/tnm02/tnm02-56.jpg';
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
+import ShowNTell from '../../components/ShowNTell';
 
 const TakeMake02 = () => {
   return (
@@ -137,8 +138,7 @@ const TakeMake02 = () => {
           </li>
         </ol>
         <h4>Please show us what you made!</h4>
-        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
-
+        <ShowNTell />
       </PageTemplate>
     </>
   );

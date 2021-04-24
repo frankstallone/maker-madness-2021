@@ -48,3 +48,24 @@
 .link {
   @apply text-indigo-800 hover:text-indigo-900 transition delay-200 duration-200 no-underline hover:underline;
 }
+
+.show-n-tell {
+  @apply bg-gradient-to-br from-indigo-700 to-indigo-500 p-16 rounded-xl text-white shadow-xl relative overflow-hidden;
+}
+.show-n-tell code,
+.show-n-tell h2 {
+  @apply text-white;
+}
+.show-n-tell h2,
+.show-n-tell p {
+  @apply relative z-10;
+}
+.show-n-tell h2 {
+  @apply mt-0;
+}
+.show-n-tell p {
+  @apply mb-0;
+}
+.show-n-tell a {
+  @apply mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50 no-underline;
+}

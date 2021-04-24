@@ -13,6 +13,7 @@ import img10 from '../../img/tnm03/page12image990390944.png';
 
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
+import ShowNTell from '../../components/ShowNTell';
 
 const TakeMake03 = () => {
   return (
@@ -114,7 +115,7 @@ const TakeMake03 = () => {
         <img className="mx-auto" src={img10} alt="Step" />
 
         <h4>Please show us what you made!</h4>
-        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
+        <ShowNTell />
 
         <p>
           All content © Jessee Smith SilverspotStudio.com Help map Brood X with

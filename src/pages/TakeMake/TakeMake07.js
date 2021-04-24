@@ -6,6 +6,7 @@ import img03 from '../../img/tnm07/photo2.png';
 
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
+import ShowNTell from '../../components/ShowNTell';
 
 const TakeMake07 = () => {
   return (
@@ -73,7 +74,7 @@ const TakeMake07 = () => {
         <img className="mx-auto" src={img03} alt="Step" />
         <p>Simple, right? You now have a bee bath for the bees to enjoy.</p>
         <h4>Please show us what you made!</h4>
-        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
+        <ShowNTell />
       </PageTemplate>
     </>
   );

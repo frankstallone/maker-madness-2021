@@ -5,6 +5,7 @@ import img02 from '../../img/oyo/img2.png';
 
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
+import ShowNTell from '../../components/ShowNTell';
 
 const OYO01 = () => {
   return (
@@ -74,8 +75,7 @@ const OYO01 = () => {
         </p>
 
         <img className="mx-auto" src={img01} alt="Fidget Spinner" />
-        <h4>Please show us what you did!</h4>
-        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
+        <ShowNTell />
       </PageTemplate>
     </>
   );

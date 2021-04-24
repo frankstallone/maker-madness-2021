@@ -10,6 +10,7 @@ import img07 from '../../img/tnm08/xporably_logo.png';
 
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
+import ShowNTell from '../../components/ShowNTell';
 
 const TakeMake08 = () => {
   return (
@@ -88,7 +89,7 @@ const TakeMake08 = () => {
 
         <img className="mx-auto" src={img06} alt="Step" />
         <h4>Please show us what you made!</h4>
-        <p>Take a pic of your creation and tag Achieve when you post to Insta or FB, or use the hashtag #makermadness, or just email to director@achievefoundation.org. Thx.</p>
+        <ShowNTell />
       </PageTemplate>
     </>
   );
