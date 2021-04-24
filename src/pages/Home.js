@@ -39,7 +39,7 @@ const Home = () => {
       external: true,
       to: 'https://sites.google.com/view/makermadness2021-geo-caching',
       description:
-        "Grab your bike, scooter, or Dad's car ;>) and get to know South Orange and Maplewood in a whole new way.",
+        "Grab your bike, scooter, or Dad's car 😉 and get to know South Orange and Maplewood in a whole new way.",
       buttons: [
         {
           buttonText: 'Start Here',
@@ -103,16 +103,20 @@ const Home = () => {
       <PageTemplate>
         <h2 className="text-lg">Saturday, April 24th, 10-2pm.</h2>
         <h3>Activities</h3>
-        <ul className="page-lists divide-y divide-gray-200">
+        <ul className="page-lists divide-y divide-indigo-400">
           {links.map((link) => (
             <li key={link.name} className="py-4 flex">
               <div className="m-0 w-full">
-                <p className="font-medium text-xl text-gray-900">
+                <p className="font-medium text-xl gray-indigo-900">
                   {link.to ? (
                     link.external ? (
                       <a href={link.to}>{link.name}</a>
                     ) : (
-                      <NavLink external={link.external} to={link.to}>
+                      <NavLink
+                        external={link.external}
+                        to={link.to}
+                        className="link"
+                      >
                         {link.name}
                       </NavLink>
                     )
@@ -131,7 +135,7 @@ const Home = () => {
                         return (
                           <a
                             key={button.link}
-                            className="btn--secondary"
+                            className="btn--experimental"
                             href={button.link}
                           >
                             {button.buttonText}

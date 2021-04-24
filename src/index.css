@@ -30,3 +30,12 @@
 .prose .btn--secondary {
   @apply inline-flex items-center shadow-sm px-2.5 py-0.5 border border-yellow-300 text-sm leading-5 font-medium rounded-full text-yellow-700 bg-yellow-50 hover:bg-yellow-100 no-underline mr-2;
 }
+
+/* Experimental */
+.prose .btn--experimental {
+  @apply inline-flex items-center rounded-full px-8 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-yellow-400 border-yellow-500 hover:bg-yellow-500 hover:border-yellow-600 transition delay-200 duration-200 text-gray-800 no-underline mr-2;
+}
+
+.link {
+  @apply text-indigo-800 hover:text-indigo-900 transition delay-200 duration-200 no-underline hover:underline;
+}

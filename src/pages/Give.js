@@ -9,7 +9,10 @@ const Give = () => {
       <PageTemplate>
         <p className="text-xl">
           Please consider a small contribution to{' '}
-          <a href="https://achievefoundation.org/donation-form/">
+          <a
+            href="https://achievefoundation.org/donation-form/"
+            className="link"
+          >
             help out all the activies of The Achieve Foundation.
           </a>
           &nbsp; 🙏🏻
