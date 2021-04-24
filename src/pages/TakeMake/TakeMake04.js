@@ -8,8 +8,6 @@ import img06 from '../../img/tnm04/tnm04-06.png';
 import img07 from '../../img/tnm04/tnm04-07.png';
 import img08 from '../../img/tnm04/tnm04-08.png';
 import img09 from '../../img/tnm04/tnm04-09.png';
-// import vid1 from '../../img/tnm04/popsicle-stick-bomb-vid.MOV';
-
 
 import PageHero from '../../components/PageHero';
 import PageTemplate from '../../components/PageTemplate';
