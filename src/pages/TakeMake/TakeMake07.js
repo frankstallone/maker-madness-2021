@@ -38,7 +38,7 @@ const TakeMake07 = () => {
         <p><strong>Step 5</strong> - If you happen to have lemon grass essential oil, put a couple drops on any rock or bark that sticks out of the water.</p>
 
         <img className="mx-auto" src={img03} alt="Step" />
-        <p>Simple, right? You now have a bee bath for the the bees to enjoy.</p>
+        <p>Simple, right? You now have a bee bath for the bees to enjoy.</p>
       </PageTemplate>
     </>
   );
