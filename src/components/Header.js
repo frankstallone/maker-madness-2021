@@ -201,6 +201,9 @@ const Header = () => {
 
                             <span className="ml-3 text-base font-medium text-gray-900">
                               {item.name}
+                              <p className="mt-1 text-sm text-gray-500">
+                                {item.description}
+                              </p>
                             </span>
                           </NavLink>
                         ))}

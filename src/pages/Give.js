@@ -12,6 +12,7 @@ const Give = () => {
           <a href="https://achievefoundation.org/donation-form/">
             help out all the activies of The Achieve Foundation.
           </a>
+          &nbsp; 🙏🏻
         </p>
       </PageTemplate>
     </>
