@@ -31,7 +31,8 @@ const Home = () => {
     },
     {
       name: 'Meet the Bees',
-      description: 'Come to Ritzer Field (behind CHS) from 10am to 2pm to see a real bee colony',
+      description:
+        'Come to Ritzer Field (behind CHS) from 10am to 2pm to see a real bee colony',
     },
     {
       name: 'Geo-Caching',
@@ -49,7 +50,7 @@ const Home = () => {
     {
       name: 'Live Demos',
       description:
-        'Come to Ritzer field (behind CHS) 10am to 2pm to see outside demos of woodworking by the creator of Maplewoodshop, as well as demonstrations of robotics by the FirstLegoLeague robotics team consisting of 8th grade girls from SOMS.'
+        'Come to Ritzer field (behind CHS) 10am to 2pm to see outside demos of woodworking by the creator of Maplewoodshop, as well as demonstrations of robotics by the FirstLegoLeague robotics team consisting of 8th grade girls from SOMS.',
     },
     {
       name: 'CodeJoy',
@@ -130,7 +131,7 @@ const Home = () => {
                         return (
                           <a
                             key={button.link}
-                            className="btn--secondary2"
+                            className="btn--secondary"
                             href={button.link}
                           >
                             {button.buttonText}
