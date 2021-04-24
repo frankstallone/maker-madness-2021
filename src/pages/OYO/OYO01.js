@@ -11,12 +11,14 @@ const OYO01 = () => {
     <>
       <PageHero supHeader="OYO - OnYourOwn #1" mainHeader="Fidget Spinner" />
       <PageTemplate>
-        <h3>Recycled Fidget Spinner Project</h3>
-        <h5>Created by Alexa Garrido</h5>
-        <p>(Parental supervision suggested)</p>
+        <h2>Recycled Fidget Spinner Project</h2>
+        <h3>Created by Alexa Garrido</h3>
+        <p>
+          <em>Parental supervision suggested</em>
+        </p>
+        <img className="mx-auto" src={img02} alt="Fidget Spinner Template" />
 
-
-        <h3>Materials</h3>
+        <h2>Supplies</h2>
         <div className="px-8 bg-yellow-50 border-2 border-yellow-200 rounded-lg">
           <ul>
             <li>Cardboard</li>
@@ -28,19 +30,50 @@ const OYO01 = () => {
           </ul>
         </div>
 
-        <h4>Instructions</h4>
-        <p><strong>Step 1</strong> - Gather all the materials and get to a clean workspace.</p>
-        <img className="mx-auto" src={img02} alt="Fidget Spinner Template" />
-        <p><strong>Step 2</strong> - Using one of the three templates, cut out a fidget spinner shape out of cardboard.</p>
-        <p><strong>Step 3</strong> - With parental supervision, poke a hole in the middle of the shape you just cut out with the scissors, and try not to make the hole too big, as the lollipop stick is going to fit in it.</p>
-        <p><strong>Step 4</strong> - If you have a marker, or crayon, you can color both sides of the cardboard shape. If you have colored paper instead, then cut two pieces of paper that are the exact same shape as the cardboard and poke a hole in the same place as the hole in the cardboard.</p>
-        <p><strong>Step 5</strong> - If you are using crayons or markers, please skip this step. Glue the colored paper on either side of the cardboard, and if you need to fix the hole, please do so.</p>
-        <p><strong>Step 6</strong> - Now, poke the lollipop stick through the cardboard, and cut it so about a half of an inch is poking from either side of the cardboard.</p>
-        <p><strong>Step 7</strong> - Now, with parental supervision, glue each end of the lollipop stick to the inside middle of a plastic water bottle cap.  </p>
-        <p><strong>Step 8</strong> - Now once everything is glued and dried, put one finger on each bottle cap, and spin, and enjoy!</p>
+        <h2>Step 1</h2>
+        <p>Gather all the materials and get to a clean workspace.</p>
+
+        <h2>Step 2</h2>
+        <p>
+          Using one of the three templates, cut out a fidget spinner shape out
+          of cardboard.
+        </p>
+        <h2>Step 3</h2>
+        <p>
+          With parental supervision, poke a hole in the middle of the shape you
+          just cut out with the scissors, and try not to make the hole too big,
+          as the lollipop stick is going to fit in it.
+        </p>
+        <h2>Step 4</h2>
+        <p>
+          If you have a marker, or crayon, you can color both sides of the
+          cardboard shape. If you have colored paper instead, then cut two
+          pieces of paper that are the exact same shape as the cardboard and
+          poke a hole in the same place as the hole in the cardboard.
+        </p>
+        <h2>Step 5</h2>
+        <p>
+          If you are using crayons or markers, please skip this step. Glue the
+          colored paper on either side of the cardboard, and if you need to fix
+          the hole, please do so.
+        </p>
+        <h2>Step 6</h2>
+        <p>
+          Now, poke the lollipop stick through the cardboard, and cut it so
+          about a half of an inch is poking from either side of the cardboard.
+        </p>
+        <h2>Step 7</h2>
+        <p>
+          Now, with parental supervision, glue each end of the lollipop stick to
+          the inside middle of a plastic water bottle cap.
+        </p>
+        <h2>Step 8</h2>
+        <p>
+          Now once everything is glued and dried, put one finger on each bottle
+          cap, and spin, and enjoy!
+        </p>
 
         <img className="mx-auto" src={img01} alt="Fidget Spinner" />
-
       </PageTemplate>
     </>
   );

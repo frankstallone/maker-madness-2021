@@ -18,14 +18,28 @@ const TakeMake06 = () => {
           <img className="mx-auto w-56" src={img01} alt="Step" />
         </a>
 
-        <p><strong>Step 1</strong> - Sand any rough edges using the sandpaper.</p>
-        <p><strong>Step 2</strong> - Set the board on a flat surface like a table.</p>
-        <p><strong>Step 3</strong> - Gently twist and push the thinner dowel through the board.</p>
-        <p><strong>Step 4</strong> - Feel underneath to make sure the end of the dowel and the board are flush (at the same level).</p>
-        <p><strong>Step 5</strong> - Gently twist the larger dowel onto the thinner dowel until it too is flush with the top of the thinner dowel.</p>
+        <h2>Step 1</h2>
+        <p>Sand any rough edges using the sandpaper.</p>
+        <h2>Step 2</h2>
+        <p>Set the board on a flat surface like a table.</p>
+        <h2>Step 3</h2>
+        <p>Gently twist and push the thinner dowel through the board.</p>
+        <h2>Step 4</h2>
+        <p>
+          Feel underneath to make sure the end of the dowel and the board are
+          flush (at the same level).
+        </p>
+        <h2>Step 5</h2>
+        <p>
+          Gently twist the larger dowel onto the thinner dowel until it too is
+          flush with the top of the thinner dowel.
+        </p>
         <img className="mx-auto" src={img02} alt="Step" />
 
-        <p>If your rack is slipping, you can use a small amount of glue to connect any of the pieces.</p>
+        <p>
+          If your rack is slipping, you can use a small amount of glue to
+          connect any of the pieces.
+        </p>
       </PageTemplate>
     </>
   );

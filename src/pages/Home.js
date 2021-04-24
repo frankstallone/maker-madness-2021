@@ -135,7 +135,7 @@ const Home = () => {
                         return (
                           <a
                             key={button.link}
-                            className="btn--experimental"
+                            className="btn--secondary"
                             href={button.link}
                           >
                             {button.buttonText}

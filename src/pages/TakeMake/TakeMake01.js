@@ -32,9 +32,9 @@ const TakeMake01 = () => {
       />
       <PageTemplate>
         <img className="mx-auto" src={img01} alt="Step: X" />
-        <h3>Simple Marionette</h3>
+        <h2>Simple Marionette</h2>
         <img className="mx-auto" src={img02} alt="Step: X" />
-        <h3>Folded Talking Head</h3>
+        <h2>Folded Talking Head</h2>
         <img className="mx-auto" src={img03} alt="Step: X" />
         <h3>Supplies</h3>
         <div className="px-8 bg-yellow-50 border-2 border-yellow-200 rounded-lg">

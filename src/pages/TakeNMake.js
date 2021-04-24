@@ -73,7 +73,7 @@ const TakeNMake = () => {
           Grab your free Take&amp;Make bags at participating locations and head
           home to mess up your kitchen table instead of ours. 😆
         </p>
-        <ul className="page-lists divide-y divide-gray-200">
+        <ul className="page-lists divide-y divide-indigo-400">
           {pages.map((page) => (
             <li key={page.name} className="py-4 flex">
               <div className="m-0 w-full">
