@@ -112,7 +112,7 @@ const TakeMake10 = () => {
           scientists think they may have looked like. But also, feel free to use
           your imagination and be creative. Can you imagine other types of
           animals that haven't been discovered yet? Do you think you might like
-          to be a paleontologist one day? Ther job is to look for dinosaur
+          to be a paleontologist one day? Their job is to look for dinosaur
           fossils and try to imagine how they would have lived.
         </p>
         <p>
